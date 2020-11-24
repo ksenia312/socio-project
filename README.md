@@ -1,2 +1,2 @@
-# SOCIO
+SOCIO
 
