@@ -1,10 +1,19 @@
 import React from 'react';
-import style from "./placeForEnter.css";
+import "./placeForEnter.css";
 const PlaceForEnter = (props) => {
-
+    let newAreaElement = React.createRef();
+    let onAreaChange = () => {
+        let text = newAreaElement.current.value;
+        props.updateArea(text)
+    }
     return (
        <div>
-           <textarea className={style.window} placeholder="Игрок N"/>
+           <textarea
+               ref={newAreaElement}
+               placeholder="Игрок N"
+               value={props.newAreaText}
+               onChange={onAreaChange}
+           />
        </div>
     );
 }

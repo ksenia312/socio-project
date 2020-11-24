@@ -1,6 +1,6 @@
 
 .mainWindow  {
-    border:1px solid white;
+    border:2px solid white;
     width: 60%;
     margin: 0 auto;
     height: 350px;
@@ -15,5 +15,5 @@
 .buttons {
     text-align: right;
     padding-right:40px ;
-    padding-top: 20px;
+    padding-top: 35px;
 }

@@ -1,14 +1,16 @@
 import React from 'react';
-
-import Button from "./button/button";
-import MainWindow from "./mainWindow/mainWindow";
+import "./enter.module.css"
+import {NavLink} from "react-router-dom";
+import MainWindowContainer from "./mainWindow/mainWindowContainer";
 
 const Enter = (props) => {
 
     return (
         <div className='enter'>
-            <Button way="/" name="Назад"/>
-            <MainWindow />
+            <NavLink exact to="/">
+                <button>Назад</button>
+            </NavLink>
+            <MainWindowContainer />
         </div>
     );
 }
