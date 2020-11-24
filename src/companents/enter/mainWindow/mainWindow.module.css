@@ -1,0 +1,19 @@
+
+.mainWindow  {
+    border:1px solid white;
+    width: 60%;
+    margin: 0 auto;
+    height: 350px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.placeForEnter{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.buttons {
+    text-align: right;
+    padding-right:40px ;
+    padding-top: 20px;
+}
