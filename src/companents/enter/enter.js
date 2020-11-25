@@ -4,7 +4,6 @@ import {NavLink} from "react-router-dom";
 import MainWindowContainer from "./mainWindow/mainWindowContainer";
 
 const Enter = (props) => {
-
     return (
         <div className='enter'>
             <NavLink exact to="/">

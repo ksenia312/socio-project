@@ -1,7 +1,6 @@
 let initialState = {
     newAreaText: '',
     persons:[]
-
 }
 const UPDATE_AREA = "UPDATE_AREA"
 const ADD_PERSON="ADD_PERSON"

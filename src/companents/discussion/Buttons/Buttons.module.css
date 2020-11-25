@@ -1,0 +1,15 @@
+.buttons {
+    flex-grow: 1;
+
+
+    text-align: right;
+
+
+}
+
+.but1 {
+    display: block;
+}
+.but2 {
+    display: block;
+}

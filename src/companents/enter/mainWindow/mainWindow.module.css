@@ -1,19 +1,39 @@
 
 .mainWindow  {
-    border:2px solid white;
+    border:4px solid white;
+    position: fixed; /* Фиксированное положение */
+    right: 20%; /* Расстояние от правого края окна браузера */
+    top: 10%;
     width: 60%;
-    margin: 0 auto;
-    height: 350px;
+    margin: 5% auto;
+    height: 60%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    box-shadow: 0 0 10px #FFFFFF, inset 0 0 10px #FFFFFF;
+    border-radius: 5px;
 }
 .placeForEnter{
     text-align: center;
-    margin-top: 10px;
+    bottom: 20%;
+    position: absolute;
+    width: 100%;
+    height: 47%;
+
 }
 
 .buttons {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 20px 20px 0;
+    height: 20%;
+    right: 0;
     text-align: right;
-    padding-right:40px ;
-    padding-top: 35px;
+}
+
+.but1 {
+    right: 40%;
+}
+.but2 {
+    right: 7%;
 }

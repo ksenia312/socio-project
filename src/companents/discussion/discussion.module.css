@@ -1,3 +1,53 @@
+
+
+
+
 .discussion {
-    background-color: darkred;
+    border: 5px solid #ecc30c;
+    box-shadow: 0 0 15px #ecc30c, inset 0 0 30px #ecc30c;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    width: 90%;
+    margin: 0 auto;
+    min-width: 700px;
+
 }
+
+.choose {
+    flex-grow: 17;
+    color: #ecc30c;
+    text-align: center;
+    padding: 15px 0 0 180px;
+    font-size: 7em;
+    font-family: Neoneon, sans-serif;
+
+
+}
+
+.choose p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.bottom {
+    width: 90%;
+    margin: 5%;
+}
+
+.top {
+
+    display: flex;
+    flex-grow: 4;
+    flex-basis: 200px;
+    flex-direction: row;
+    height: 100px;
+}
+@font-face {
+    font-family: "Neoneon";
+    src: url("../../fonts/Neoneon1.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;}

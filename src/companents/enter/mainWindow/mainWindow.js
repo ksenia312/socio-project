@@ -6,22 +6,21 @@ import {NavLink} from "react-router-dom";
 
 const MainWindow = (props) => {
     let onAddPerson = () => {
-        debugger
+
         props.addPerson()
-        debugger
+
     }
     return (
         <div className={style.mainWindow}>
-            <div></div>
+            <div> </div>
             <div className={style.placeForEnter}>
                 <PlaceForEnterContainer/>
             </div>
             <div className={style.buttons}>
-                <NavLink exact to="/enter">
-                    <button onClick={onAddPerson}>Дальше</button>
-                </NavLink>
-                <NavLink exact to="/dicsussion">
-                    <button onClick={onAddPerson}>Я последний</button>
+                <button className={style.but1} onClick={onAddPerson}>Дальше</button>
+
+                <NavLink exact to="/discussion">
+                    <button className={style.but2}  onClick={onAddPerson}>Я последний</button>
                 </NavLink>
             </div>
         </div>
