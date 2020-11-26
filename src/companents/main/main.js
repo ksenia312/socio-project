@@ -7,6 +7,9 @@ const Main = (props) => {
             <NavLink exact to="/enter">
                 <button> ввод участников </button>
             </NavLink>
+            <NavLink exact to="/ingame">
+                <button> в игре </button>
+            </NavLink>
 
         </div>
     );

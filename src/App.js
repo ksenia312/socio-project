@@ -5,10 +5,14 @@ import InGame from "./companents/inGame/inGame";
 import Route from "react-router-dom/es/Route";
 import DiscussionContainer from "./companents/discussion/discussionContainer";
 import Finish from "./companents/finish/finish";
+import Main from "./companents/main/main";
 
 const App = () => {
     return (
         <div className='main-pages'>
+            <Route path="/main"
+                   render={() =>  <Main/>}
+            />
             <Route path="/enter"
                    render={() =>  <Enter />}
             />
@@ -21,6 +25,7 @@ const App = () => {
             <Route path="/finish"
                    render={() =>  <Finish />}
             />
+
         </div>
     );
 }

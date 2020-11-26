@@ -6,7 +6,7 @@ import MainWindowContainer from "./mainWindow/mainWindowContainer";
 const Enter = (props) => {
     return (
         <div className='enter'>
-            <NavLink exact to="/">
+            <NavLink exact to="/main">
                 <button>Назад</button>
             </NavLink>
             <MainWindowContainer />
