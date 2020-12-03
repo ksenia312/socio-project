@@ -1,4 +1,4 @@
-textarea{
+.inp{
     border: 2px solid #E5E5E5;
     box-shadow: 0 0 1px #E5E5E5, inset 0 0 1px #E5E5E5;
     resize: none;
@@ -8,17 +8,18 @@ textarea{
     background-color:transparent;
     color: white;
     text-align: center;
-    font-size: 2em;
-    line-height: 3em;
+    font-size: 1.8em;
     min-height: 50px;
     height: 70%;
     right: 10%;
+    font-family: RobotoMono,sans-serif;
+
 
 }
-textarea:focus, textarea:active {
+.inp:focus, .inp:active {
     outline: none;
 }
-textarea::placeholder{
+.inp::placeholder{
     color: white;
 
 

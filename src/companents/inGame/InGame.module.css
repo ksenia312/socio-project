@@ -2,13 +2,13 @@
     border: 5px solid #ecc30c;
     box-shadow: 0 0 15px #ecc30c, inset 0 0 30px #ecc30c;
     border-radius: 10px;
-
     position: absolute;
     top: 2%;
     right: 5%;
     width: 90%;
     margin: 0 auto;
     min-width: 700px;
+    min-height: 500px;
 
 }
 .but {
@@ -28,10 +28,8 @@
     font-style: normal;
     color: #ecc30c;
     text-align: center;
-
-
-
     display: inline;
+    font-family: RobotoMono,sans-serif;
 
 
 }

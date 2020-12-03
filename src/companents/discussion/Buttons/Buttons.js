@@ -20,6 +20,9 @@ const Buttons = (props) => {
             <NavLink exact to="/finish">
                 <button className={style.but2}>Мы закончили</button>
             </NavLink>
+            <NavLink exact to="/inGame">
+                <button className={style.but2}>Выбрать игрока</button>
+            </NavLink>
 
         </div>
     );

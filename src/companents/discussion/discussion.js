@@ -11,7 +11,6 @@ const Discussion = (props) => {
         let rand = min - 0.5 + Math.random() * (max - min + 1);
         return Math.round(rand);
     }
-
     let text;
     if (props.flag === -1) {
         let id = randomInteger(0, props.blocks.length - 1);
@@ -19,6 +18,7 @@ const Discussion = (props) => {
     } else {
         text = props.blocks[props.flag].text
     }
+
     return (
         <div className={style.discussion}>
                 <div className={style.top}>

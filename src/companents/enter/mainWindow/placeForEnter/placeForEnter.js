@@ -1,5 +1,5 @@
 import React from 'react';
-import "./placeForEnter.css";
+import style from "./placeForEnter.module.css";
 const PlaceForEnter = (props) => {
     let newAreaElement = React.createRef();
     let onAreaChange = () => {
@@ -8,11 +8,13 @@ const PlaceForEnter = (props) => {
     }
     return (
        <div>
-           <textarea
+           <input
+               className={style.inp}
                ref={newAreaElement}
                placeholder="Игрок N"
                value={props.newAreaText}
                onChange={onAreaChange}
+               maxLength='30'
            />
        </div>
     );

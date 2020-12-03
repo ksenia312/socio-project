@@ -1,5 +1,7 @@
 import {connect} from "react-redux";
 import ListLeft from "./listLeft";
+import {removeAndGoActionCreator} from "../../../Redux/enterReducer";
+
 
 
 let mapStateToProps = (state) => {
@@ -10,6 +12,10 @@ let mapStateToProps = (state) => {
 }
 let mapDispatchToProps = (dispatch) => {
     return {
+        removeAndGo: () => {
+            dispatch(removeAndGoActionCreator())
+
+        }
 
 
     }

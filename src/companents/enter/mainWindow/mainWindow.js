@@ -6,7 +6,6 @@ import {NavLink} from "react-router-dom";
 
 const MainWindow = (props) => {
     let onAddPerson = () => {
-
         props.addPerson()
 
     }

@@ -1,17 +1,27 @@
 import React from 'react';
-import Person from "./person/person";
+
 import style from "./listLeft.module.css"
+import PersonContainer from "./person/personContainer";
+import {NavLink} from "react-router-dom";
 
 const ListLeft = (props) => {
     let personsElements = props.persons.map(person =>
-        <Person name={person.name}/>)
+        <PersonContainer name={person.name}/>)
+    let removeAndGo = () => {
+        props.removeAndGo()
+
+    }
     return (
         <div className={style.list}>
             <div className={style.persons}>
                 {personsElements}
             </div>
             <div className={style.divBut}>
-                <button className={style.but}>Подтвердить выбор</button>
+                <NavLink exact to="/discussion">
+                    <button className={style.but}
+                            onClick={removeAndGo}
+                    >Подтвердить выбор</button>
+                </NavLink>
             </div>
         </div>
     );
