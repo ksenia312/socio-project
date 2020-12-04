@@ -37,3 +37,27 @@
 .but2 {
     right: 7%;
 }
+@media (max-width: 800px){
+    .mainWindow {
+        right: 5%; top: 28%; width: 90%; height: 44%;
+        }
+    .placeForEnter{ font-size: 0.8em
+    }
+    .buttons {
+        position: fixed;
+        bottom: 0;
+
+        height: 45px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        text-align: center;
+
+    }
+    .but1 {
+        margin-left: 18%;
+    }
+    .but2 {
+        margin-left: 5%;
+    }
+
+}

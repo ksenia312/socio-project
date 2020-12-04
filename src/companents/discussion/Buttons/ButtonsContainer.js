@@ -9,7 +9,7 @@ let mapStateToProps = (state) => {
     }
 }
 let mapDispatchToProps = (dispatch) => {
-    debugger
+
     return {
 
         changeText: () => {

@@ -1,10 +1,6 @@
 .buttons {
     flex-grow: 1;
-
-
     text-align: right;
-
-
 }
 
 .but1 {
@@ -12,4 +8,15 @@
 }
 .but2 {
     display: block;
+}
+@media (max-width: 700px) {
+    .buttons {
+        flex-grow: unset;
+        position: fixed;
+        bottom: 10%;
+
+        width: 96%;
+        right: -36%;
+        text-align: center;
+    }
 }

@@ -1,13 +1,28 @@
 body {
-   background: url(back.png) no-repeat;
+   background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-position: right top;
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
-    background-color: #120033;
+
+    background-position-x: center;
+    background-position-y: center;
     color: #E5E5E5;
     font-family: RobotoMono, serif;
 }
+@media (max-width: 1400px) {
+    body {
+        background: url(back.png) no-repeat 54% 16%;}
+}
+@media (max-width: 900px) {
+    /* это будет показано при разрешении монитора до 930 пикселей */
+    body {
+        background: url(back1.png) no-repeat 54% 30%;}
+
+}
+
 @font-face {
     font-family: "RobotoMono";
     src: url("fonts/RobotoMono.ttf") format("truetype");

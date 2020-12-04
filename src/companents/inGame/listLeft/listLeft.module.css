@@ -41,3 +41,10 @@
     height: 80%;
     overflow: auto;
 }
+@media (max-width: 800px) {
+
+    .list {
+        margin: 0 0 10px 10%;
+        width: 80%;
+    }
+}

@@ -7,29 +7,43 @@
     right: 5%;
     width: 90%;
     margin: 0 auto;
-    min-width: 700px;
+
     min-height: 500px;
 
 }
+
 .but {
     margin-left: 10px;
 }
+
 .but:active, .but:focus {
-    outline:none;
+    outline: none;
 }
+
 .block {
 
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
 
 }
+
 .words {
 
     font-style: normal;
     color: #ecc30c;
     text-align: center;
     display: inline;
-    font-family: RobotoMono,sans-serif;
+    font-family: RobotoMono, sans-serif;
 
+
+}
+
+@media (max-width: 800px) {
+    /* это будет показано при разрешении монитора до 930 пикселей */
+    .discussion {
+        width: 88%;
+        height:94%;
+        right: 4%;
+        top: 2%}
 
 }

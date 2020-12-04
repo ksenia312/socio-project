@@ -5,7 +5,7 @@ import Criterion from "./criterion/criterion";
 import ButtonsContainer from "./Buttons/ButtonsContainer";
 
 const Discussion = (props) => {
-    debugger
+
 
     function randomInteger(min, max) {
         let rand = min - 0.5 + Math.random() * (max - min + 1);
